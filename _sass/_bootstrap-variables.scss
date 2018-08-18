@@ -1,20 +1,77 @@
-// Custom Variables
-//
-// Put variables overrides here.
-//
-// See _vendor/bootstrap/scss/_variables.scss
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Josefin+Slab:400,600,700');
 
-//
-// Color system
-//
 
-$indigo:  #6610f2;
+// COLOR SYSTEM
+
+$indigo: #5CB35A;
 $primary: $indigo;
+$second: #383838;
+$btncolor: #5CB35A;
 
-// Fonts
-//
-// Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+// FONTS
 
-$font-family-base: Merriweather, serif;
+$regfont: Muli, normal;
+$secondfont: Bungee, normal;
+
+
+
+// MOBILE
+
+$regsize: 12px; 
+
+$h1size: 24px; 
+
+$h2size: 14px;
+$h2uppercase: uppercase; 
+
+$h3size: 12px;
+
+$h4size: 10px;
+
+$h5size: 20px;
+
+$formsize: 6px;
+
+$btnuppercase: uppercase;
+
+$footersize: 6px;
+
+
+//TABLET
+
+$regsizetablet: 16px; 
+
+$h1sizetablet: 40px;
+
+$h2sizetablet: 20px;
+
+$h3sizetablet: 18px;
+
+$h4sizetablet: 14px;
+
+$h5sizetablet: 50px;
+
+$footersizetablet: 9px;
+
+$formsizetablet: 12px;
+
+
+
+//DESKTOP
+
+$regsizedesktop: 16px; 
+
+$h1sizedesktop: 30px;
+
+$h2sizedesktop: 18px;
+
+$h3sizedesktop: 16px;
+
+$h4sizedesktop: 14px;
+
+$h5sizedesktop: 50px;
+
+$footersizedesktop: 9px;
+
+$formsizedesktop: 12px;
