@@ -1,0 +1,385 @@
+@import
+"bootstrap-variables",                  // See _bootstrap-variables.scss
+"../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+.grijs{
+    background-color: $third;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    box-shadow: 0px 4px 18px 0px;
+    padding-top: 10px;
+}
+
+.navbar{
+    background-color: $third;
+    box-shadow: 0px 0.2px 15px 0.2px grey;
+}
+
+.nav-link{
+    color: $second !important;
+}
+
+nav-link:hover{
+    color: $primary !important;
+}
+
+.navbar{
+    background-color: $third;
+    box-shadow: 0px 0.2px 15px 0.2px grey;
+    a{
+        color: $second !important;
+        font-family: $regfont !important;
+    
+    &:hover{
+        color: $primary !important;
+    }
+}
+}
+
+nav-link:active{
+    color: $primary !important;
+}
+
+.formhome{
+    margin-top: 10px;
+    p{ 
+        font-family: $regfont;
+        margin-bottom: 0.3rem !important;
+        color: $second;
+    }
+    button{
+        border-color: $primary !important;
+        background-color: none !important;
+        font-family: $secondfont !important;
+        color: $primary !important;
+        width: 100%;
+
+    &:hover{
+        background-color: $primary !important;
+        color: white !important;
+    }
+}
+     input{
+            border-radius: 0rem !important;
+            background-color: $third;
+            border: none !important;
+            font-family: $regfont;
+        }
+    }
+
+
+
+
+
+.texthome{
+    h2{
+        font-family: $secondfont;
+        font-weight: 700;
+        color: $second;
+    }
+    span{
+        color: $primary;
+    }
+    p{
+        font-family: $regfont;
+        color: $second;
+        font-weight: 300;
+    }
+    button{
+        font-family: $secondfont;
+    }
+}
+
+.btngroen{
+    background-color: $primary;
+    border-color: $primary;
+&:hover{
+        background-color: $third !important;
+        border-color: $primary;
+        color: $primary;
+    }
+}
+
+.beschikbaar{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    h1{
+        font-family: $secondfont;
+        font-weight: 600;
+        color: $second;
+    }
+    p{
+        font-family: $regfont;
+        color: $fourth;
+        font-weight: 300;
+    }
+    u{
+        color: $second;
+    }
+    span{
+        font-weight: 600;
+        color: $primary;
+    }
+}
+
+.groenevingers{
+        h1{
+        font-family: $secondfont;
+        font-weight: 700;
+        color: $second;
+        }
+        span{
+            color: $primary;
+        }
+        p{
+            font-family: $regfont;
+            font-weight: 300;
+            color: $second;
+        }
+}
+
+.onzeklanten{
+    font-family: $secondfont;
+        font-weight: 700;
+        color: $primary;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+
+.card-body{
+    h4{
+        font-family: $secondfont;
+        font-weight: 700;
+    }
+    p{
+        font-family: $regfont;
+            font-weight: 300;
+            color: $fourth;
+    }
+}
+
+.info{
+    font-family: $secondfont;
+        font-weight: 700;
+        color: $primary;
+        margin-top: 15px;
+}
+
+.informatie{
+    font-family: $regfont;
+            font-weight: 300;
+            color: $second;
+            margin-bottom: 50px;
+        li{
+            color: $primary;
+            font-weight: 400;
+        }
+        h2{
+            color: $primary;
+        }
+        button{
+            background-color: none !important;
+            border-color: $primary;
+            font-family: $secondfont;
+            color: $primary;
+        &:hover{
+            background-color: $primary !important;
+            border-color: $primary;
+            color: white;
+        }
+
+        }
+}
+
+.bold{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.icon{
+    p{
+        font-family: $secondfont;
+        font-weight: 700;
+        color: $second;
+    }
+    img{
+        width: 50%;
+    }
+}
+
+.breadcrumb{
+    background-color: white;
+}
+
+
+
+
+.stappen{
+    font-family: $regfont;
+    color: $second;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    a{
+        color: $fourth;
+
+}
+}
+
+.footer{
+    margin-top:132px;
+
+}
+
+.reserveer{
+    p{
+        font-family: $secondfont;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    select{
+        border: none !important;
+        margin-right: 5px;
+        font-family: $regfont;
+        font-weight: 300;
+        border-radius: 0px !important;
+        color: $primary;
+    }
+
+    button{
+        background-color: $primary;
+    border-color: $primary;
+    color: white;
+    font-family: $secondfont;
+&:hover{
+        background-color: $third !important;
+        border-color: $primary;
+        color: $primary;
+    
+    }
+    }
+}
+
+.prijs{
+    font-family: $regfont;
+    color: $primary;
+    font-size: 30px;
+}
+
+.florassist{
+    background-color: white;
+    font-family: $regfont;
+    font-weight: 300;
+    p{
+        font-family: $secondfont;
+        font-weight: 700;
+        color: $primary;
+        margin-top: 10px;
+    }
+}
+
+.service{
+    p{
+        color: $primary;
+        font-family: $secondfont;
+        margin-bottom: 0px;
+    }
+    label{
+        font-family: $secondfont;
+        font-weight: 600;
+    }
+}
+
+.form-check{
+    background-color: white;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.proservice{
+    color: $fourth !important;
+    font-family: $regfont !important;
+    font-weight: 300;
+}
+
+.vorige{
+    background-color: white;
+    border-color: $second;
+    color: $second;
+    font-family: $secondfont;
+    &:hover{
+        background-color: $second;
+    border-color: white;
+    color: white;
+    }
+}
+
+.volgende{
+    background-color: $primary;
+    border-color: $primary;
+    color: white;
+    font-family: $secondfont;
+&:hover{
+        background-color: $third !important;
+        border-color: $primary;
+        color: $primary;
+    }
+}
+
+
+.button-group{
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.gegevens{
+    label{
+        font-family: $secondfont;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    input{
+        border: none !important;
+        border-radius: 0px !important;
+    }
+}
+.verplicht{
+    font-family: $secondfont;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.betaal{
+    font-family: $regfont;
+    p{
+        font-family: $secondfont;
+        color: $primary;
+    }
+ td{
+     border-top: none !important;
+ }
+}
+
+.overzicht{
+    background-color: white;
+}
+
+.totaal{
+    font-family: $regfont !important;
+    font-weight: 400;
+    font-size: $h1sizedesktop;
+    border-top: 2px $primary !important;
+    span{
+        font-size: $btwsizedesktop;
+    }
+}

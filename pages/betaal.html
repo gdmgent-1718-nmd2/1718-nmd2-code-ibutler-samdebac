@@ -7,58 +7,73 @@ index: 8
 # ─────────────────────
 title: BETAAL
 ---
-
-<div class="col-12">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="'reserveer'">1.PERIODE</a></li>
-            <li class="breadcrumb-item"><a href="'service'">2. SERVICE EN EXTRA'S</a></li>
-            <li class="breadcrumb-item"><a href="'gegevens'">3. GEGEVENS</a></li>
-            <li class="breadcrumb-item active" aria-current="page">4. BETAAL</li>
-        </ol>
-    </nav>
+<div class="container d-flex justify-content-center">
+    <div class="row">
+            <div class="col-12 stappen">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="'reserveer'">1.PERIODE</a></li>
+                            <li class="breadcrumb-item"><a href="'service'">2. SERVICE EN EXTRA'S</a></li>
+                            <li class="breadcrumb-item"><a href="'gegevens'">3. GEGEVENS</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">4. BETAAL</li>
+                        </ol>
+                    </nav>
+                </div>
+    </div>
 </div>
 
-<div class="col-lg-1 hidden-md hidden-sm"></div>
-    <div class="col-lg-7 col-md-12 col-sm-12">
-        <p>Overzicht</p>
-        <table class="table table-condensed">
-            <tbody>
-                <tr>
-                    <td>4 dagen basisservice<br>periode: 10/04/2018 - 17/04/2018</td>
-                    <td class="d-flex justify-content-end">€ 30 Incl. BTW</td>
-                </tr>
-                <tr>
-                    <td>Locatie: Nieuwerkerken<br>Vervoerskost: € 0,50/Km</td>
-                    <td class="d-flex justify-content-end">€ 3,5 Incl. BTW</td>
-                </tr>
-            </tbody>
-        </table>
-        <p class="d-flex justify-content-end">€ 33,5 Incl. BTW</p>
-        <p>Betaalmethode</p>
-        <div class="form-check col-12">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-            <label class="form-check-label" for="defaultCheck1">Bankcontact</label>
+<div class="container-fluid grijs">
+    <div class="container">
+        <div class="row">
+                <div class="col-lg-1 hidden-md hidden-sm"></div>
+                <div class="col-lg-7 col-md-12 col-sm-12 betaal">
+                    <div class="overzicht">
+                    <p>OVERZICHT</p>
+                    <table class="table table-condensed">
+                        <tbody>
+                            <tr>
+                                <td>4 dagen basisservice<br>periode: 10/04/2018 - 17/04/2018</td>
+                                <td class="d-flex justify-content-end">€ 30 Incl. BTW</td>
+                            </tr>
+                            <tr>
+                                <td>Locatie: Nieuwerkerken<br>Vervoerskost: € 0,50/Km</td>
+                                <td class="d-flex justify-content-end">€ 3,5 Incl. BTW</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr color="#5CB35A">
+                    <p class="d-flex justify-content-end align-items-center totaal">€ 33,5 <span>Incl. BTW</span></p>
+                    </div>
+                    <p>BETAALMETHODE</p>
+                    <div class="form-check col-12">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">Bankcontact</label>
+                    </div>
+                    <div class="form-check col-12">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">Visa</label>
+                    </div>
+                    <div class="form-check col-12">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">PayPal</label>
+                    </div>
+                    <a href="https://www.bancontact.com/nl" class="d-flex justify-content-end"><button type="button" class="btn btn-outline-secondary volgende">BETAAL</button></a>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 col-sm-12 florassist">
+                        <p>Uw florassist</p>
+                        <ul>
+                            <li>Proffesioneel opgeleid als hovenier</li>
+                            <li>Betrouwbare groene vingers</li>
+                            <li>Basisservice: bewateren, snoeien en onkruidvrij verwijderen</li>
+                        </ul>
+                        <img src="assets/images/symbol.png" alt="logo" class="img-fluid mx-auto d-block">
+                    </div>
+                    <div class="col-lg-1 hidden-md hidden-sm"></div>
+            
+            
         </div>
-        <div class="form-check col-12">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-            <label class="form-check-label" for="defaultCheck1">Visa</label>
-        </div>
-        <div class="form-check col-12">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-            <label class="form-check-label" for="defaultCheck1">PayPal</label>
-        </div>
-        <a href="https://www.bancontact.com/nl" class="d-flex justify-content-end"><button type="button" class="btn btn-outline-secondary">BETAAL</button></a>
     </div>
-    
-    <div class="col-lg-3 col-md-6 col-sm-12">
-            <p>Uw florassist</p>
-            <ul>
-                <li>Proffesioneel opgeleid als hovenier</li>
-                <li>Betrouwbare groene vingers</li>
-                <li>Basisservice: bewateren, snoeien en onkruidvrij verwijderen</li>
-            </ul>
-            <img src="assets/images/symbol.png" alt="logo" class="img-fluid mx-auto d-block">
-        </div>
-        <div class="col-lg-1 hidden-md hidden-sm"></div>
+</div>
+
 

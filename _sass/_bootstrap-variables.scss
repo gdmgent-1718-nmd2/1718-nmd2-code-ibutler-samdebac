@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Josefin+Slab:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Josefin+Slab:400,600,700');
 
 
 // COLOR SYSTEM
@@ -6,13 +6,16 @@
 $indigo: #5CB35A;
 $primary: $indigo;
 $second: #383838;
-$btncolor: #5CB35A;
+$third:#F8F8F8;
+$fourth:#A8A8A8;
+$btncolor:#5CB35A;
 
 
 // FONTS
 
-$regfont: Muli, normal;
-$secondfont: Bungee, normal;
+$regfont: Josefin Sans, sans-serif;
+$secondfont: Josefin Slab, serif;
+
 
 
 
@@ -23,13 +26,10 @@ $regsize: 12px;
 $h1size: 24px; 
 
 $h2size: 14px;
+
 $h2uppercase: uppercase; 
 
 $h3size: 12px;
-
-$h4size: 10px;
-
-$h5size: 20px;
 
 $formsize: 6px;
 
@@ -48,10 +48,6 @@ $h2sizetablet: 20px;
 
 $h3sizetablet: 18px;
 
-$h4sizetablet: 14px;
-
-$h5sizetablet: 50px;
-
 $footersizetablet: 9px;
 
 $formsizetablet: 12px;
@@ -68,10 +64,6 @@ $h2sizedesktop: 18px;
 
 $h3sizedesktop: 16px;
 
-$h4sizedesktop: 14px;
-
-$h5sizedesktop: 50px;
-
-$footersizedesktop: 9px;
+$btwsizedesktop: 9px;
 
 $formsizedesktop: 12px;
