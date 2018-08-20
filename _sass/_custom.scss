@@ -24,6 +24,10 @@
     color: $second !important;
 }
 
+nav-link:active{
+    color: $primary !important;
+}
+
 nav-link:hover{
     color: $primary !important;
 }
@@ -41,9 +45,6 @@ nav-link:hover{
 }
 }
 
-nav-link:active{
-    color: $primary !important;
-}
 
 .formhome{
     margin-top: 10px;
@@ -81,6 +82,7 @@ nav-link:active{
         font-family: $secondfont;
         font-weight: 700;
         color: $second;
+        font-size: 55px;
     }
     span{
         color: $primary;
@@ -113,6 +115,7 @@ nav-link:active{
         font-family: $secondfont;
         font-weight: 600;
         color: $second;
+        font-size: 50px;
     }
     p{
         font-family: $regfont;
@@ -125,6 +128,7 @@ nav-link:active{
     span{
         font-weight: 600;
         color: $primary;
+        font-size: 25px;
     }
 }
 
@@ -133,6 +137,7 @@ nav-link:active{
         font-family: $secondfont;
         font-weight: 700;
         color: $second;
+        font-size: 50px;
         }
         span{
             color: $primary;
@@ -280,6 +285,8 @@ nav-link:active{
     background-color: white;
     font-family: $regfont;
     font-weight: 300;
+    max-height: 246px;
+    min-height: 246px;
     p{
         font-family: $secondfont;
         font-weight: 700;
@@ -382,4 +389,86 @@ nav-link:active{
     span{
         font-size: $btwsizedesktop;
     }
+}
+
+.contact{
+    font-family: $secondfont;
+        font-weight: 700;
+        color: $primary;
+        margin-top: 15px;
+}
+
+.naam{
+    font-family: $secondfont;
+    font-weight: 700;
+    font-size: 40px;
+    color:  $primary;
+    margin-bottom: 0px !important;
+}
+
+.tel{
+    font-family: $regfont;
+    font-weight: 600;
+    font-size: 30px;
+    color:  $second;
+}
+.mail{
+    font-family: $regfont;
+    font-weight: 400;
+    font-size: 25px;
+    color: $second;
+}
+.adres{
+    font-family: $regfont;
+    font-weight: 300;
+    font-size: 20px;
+    color: $second;
+}
+.plaats{
+    font-family: $regfont;
+    font-weight: 300;
+    font-size: 20px;
+    color: $second;
+}
+
+.voorwaarden{
+    font-family: $secondfont;
+        font-weight: 700;
+        color: $primary;
+        margin-top: 15px;
+}
+
+.titel{
+    font-family: $secondfont;
+        font-weight: 400;
+        color: $primary;
+}
+
+.uitleg{
+    font-family: $regfont;
+        font-weight: 400;
+        color: $second;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: $second;
+    color: white;
+  }
+.fa-instagram{
+    background: $second;
+    color: white;
 }
