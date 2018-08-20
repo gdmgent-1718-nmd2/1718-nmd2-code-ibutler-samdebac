@@ -35,6 +35,7 @@ nav-link:hover{
 .navbar{
     background-color: $third;
     box-shadow: 0px 0.2px 15px 0.2px grey;
+
     a{
         color: $second !important;
         font-family: $regfont !important;
@@ -45,14 +46,15 @@ nav-link:hover{
 }
 }
 
-
 .formhome{
     margin-top: 10px;
+    
     p{ 
         font-family: $regfont;
         margin-bottom: 0.3rem !important;
         color: $second;
     }
+
     button{
         border-color: $primary !important;
         background-color: none !important;
@@ -73,10 +75,6 @@ nav-link:hover{
         }
     }
 
-
-
-
-
 .texthome{
     h2{
         font-family: $secondfont;
@@ -84,14 +82,17 @@ nav-link:hover{
         color: $second;
         font-size: 55px;
     }
+
     span{
         color: $primary;
     }
+
     p{
         font-family: $regfont;
         color: $second;
         font-weight: 300;
     }
+
     button{
         font-family: $secondfont;
     }
@@ -100,7 +101,8 @@ nav-link:hover{
 .btngroen{
     background-color: $primary;
     border-color: $primary;
-&:hover{
+
+    &:hover{
         background-color: $third !important;
         border-color: $primary;
         color: $primary;
@@ -117,14 +119,17 @@ nav-link:hover{
         color: $second;
         font-size: 50px;
     }
+    
     p{
         font-family: $regfont;
         color: $fourth;
         font-weight: 300;
     }
+    
     u{
         color: $second;
     }
+    
     span{
         font-weight: 600;
         color: $primary;
@@ -133,24 +138,27 @@ nav-link:hover{
 }
 
 .groenevingers{
-        h1{
+        
+    h1{
         font-family: $secondfont;
         font-weight: 700;
         color: $second;
         font-size: 50px;
         }
-        span{
-            color: $primary;
+        
+    span{
+        color: $primary;
         }
-        p{
-            font-family: $regfont;
-            font-weight: 300;
-            color: $second;
+        
+    p{
+        font-family: $regfont;
+        font-weight: 300;
+        color: $second;
         }
 }
 
 .onzeklanten{
-    font-family: $secondfont;
+        font-family: $secondfont;
         font-weight: 700;
         color: $primary;
 }
@@ -159,21 +167,22 @@ nav-link:hover{
     margin-bottom: 20px;
 }
 
-
 .card-body{
+
     h4{
         font-family: $secondfont;
         font-weight: 700;
     }
+
     p{
         font-family: $regfont;
-            font-weight: 300;
-            color: $fourth;
+        font-weight: 300;
+        color: $fourth;
     }
 }
 
 .info{
-    font-family: $secondfont;
+        font-family: $secondfont;
         font-weight: 700;
         color: $primary;
         margin-top: 15px;
@@ -184,10 +193,12 @@ nav-link:hover{
             font-weight: 300;
             color: $second;
             margin-bottom: 50px;
+        
         li{
             color: $primary;
             font-weight: 400;
         }
+
         h2{
             color: $primary;
         }
@@ -508,3 +519,4 @@ nav-link:hover{
         -ms-transform: scale(0.8);
         transform: scale(0.8);
 }
+
